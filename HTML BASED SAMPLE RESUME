@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--first html code-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--header tag is a semantic tag and though it is not visible to the user still it works in the background and helps browser to identify the header, body and footer for the give webpage. Using semantic tags makes codes readable and helps in ranking when pure HTML is used. -->
+
+<header>
+    <H1> SAMPLE RESUME </H1>
+    <hr>
+    <H2> FRONT-END DEVELOPER</H2>
+    <hr>
+<PRE>
+    <P> 
+    <!-- the target=_main tag helps to open a link on a different page. adding this tag allows a user to open different links on different pages which enhances user experience-->
+    FULL NAME : YASHI PANDEY
+    E-MAIL ADDRESS : <a href = "yashi26p@gmail.com" target="_main">mail id</a>  
+    CONTACT NUMBER : xxxxxxxx09
+    LINKEDIN PROFILE :<a href ="https://www.linkedin.com/in/yashi-pandey-45ba93321/" target="_main"> linkedin profile</a>
+    GITHUB PROFILE :<a href ="https://github.com/yasshi2608" target="_main"> github profile</a>
+            </P>
+</PRE>
+<hr>
+    </header>
+<body>
+    <!--the section tag is used to add different section in the web page which helps browser identify different parts/content of the given website-->
+    <section> 
+        <h3>Professional Summary</h3>
+        <!--The <article> tag is used to mark up self-contained content that could be distributed or reused independently, like blog posts, reports, or articles.-->
+        <article>
+    A versatile <b>Data Analyst</b> and <b>Software Developer</b> with experience in data analytics, machine learning, and front-end development. Proficient in <u>Python, SQL, C++, and data visualization.</u> Successfully completed projects in credit card fraud analysis and customer sentiment analysis. Passionate about coding and improving data-driven decision-making in the financial sector. Enthusiastic learner with additional skills in classical dance and public speaking.</article>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3> Skills :</h3>
+        <!--<ul> is used for adding unordered list items especially when we want to add our content in bullet points and not in ordered form i.e., numbers , letters etc.-->
+        <ul>
+                <pre>
+                    <!-- <li> is used to add list items and we can also add sublist in lists using <ul> <li> and then again <ul> under <li> to create  a sublist-->
+<li><b>Programming Languages</b>: <ol>
+<li>Python</li>
+<li>MySQL</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>C++</li></ol>
+<li><b>Data Analytics</b>: <ol>
+<li>Data visualization : Tableau , Power BI</li>
+<li>Advance Excel</li>
+<li>Web Scrapping</li></ol>
+<li><b>Other Skills</b>:<u>Data Structures, Algorithms, Object-Oriented Programming (OOPs), Git</u></li>
+                </pre>
+      </ul>
+    </section>
+    <hr>
+
+    <section>
+        <p>EDUCATION:</p>
+<table><thead><!--colspan is used to define the column space to be taken by a word/data etc.-->
+<caption colspan="2">EDUCATIONAL DATA</caption>
+    <tr>
+        <th>EDUCATION</th>
+        <th>YEAR</th>
+    </tr>
+    </thead>
+    <tbody>
+    <pre>
+    <tr><td>HIGH SCHOOL</td><td>2019</td></tr>
+    <tr><td>SECONDARY SCHOOL</td><td>2021</td></tr>
+    <tr><td>B.TECH (ECE WITH AI-ML)</td><td> 2021-2025</td></tr>
+    <tr><td></td></pre></tr>
+    </tbody>
+</table>
+    </section>
+    <hr>
+    <!--similarly you can add other experience as well such as job experience, projects, any related certfications etc..-->
+    <section>
+        <h3>Languages</h3>
+        <pre>
+            <!--we can use either div or span tag. but using span tag is an inline element and it only take sthe required word space whereas div would take the entire block space no matter what the word size is-->
+            <span>
+<ul>
+<li>English (Fluent)</li>
+<li>Hindi (Fluent)</li></ul>
+</span></pre></section>
+<hr>
+<section>
+    <h3>Extracurricular activities:</h3>
+<pre>
+    <TABLE>
+        <thead>
+            <tr>
+                <th>Activity</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Classical Dance (Kathak)
+                </td>
+                <td>
+                    <img src="/WhatsApp Image 2024-09-06 at 23.02.48_45e4de48.jpg"alt="Kathak image" height="100"/>
+                  </td>               
+            </tr>
+            <tr>
+                <td>
+                    Model United Nations
+                </td>
+                <td>
+                    <img src="/WhatsApp Image 2024-09-07 at 12.01.30_94857ec2.jpg"alt="MUN" height="75"/>
+                      </td>
+            </tr>
+        </tbody>
+    </TABLE>
+</pre>
+</section>
+<hr>
+</body>
+<footer>
+    <pre>
+<b>Feel free to customize this resume template to match your own needs! This is a flexible framework, and you're welcome to add, modify, or adapt anything as per your requirements. 
+Happy coding and best of luck with your journey!</b>
+    </pre>
+</footer>
+</html>
