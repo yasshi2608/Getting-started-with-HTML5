@@ -1,0 +1,146 @@
+<!-- Reservation Form - Restaurant or Hotel - Gather details for booking a table or room, such as name, number of guests, time, and special requests dietary restrictions, room type. Include fields for choosing the venue, room type, or table preference-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+   <p>
+    <h2>
+        <u>RESERVATION FORM
+
+        </u></h2></p> 
+        <p> 
+           <h3> Welcome to ABC Group of Hotels! Please fill out the form below so we can ensure you have the best experience during your stay with us.</h3>
+        </p>
+        <hr>
+</header>
+<body>
+    <section>
+<p> <h3>PERSONAL INFORMATION - </h3></p>
+<form>
+    <form action ="/action.php">
+        <!-- placeholder is pre-written in the text box-->
+        <p><u> Enter your full name :</u></p>
+        <input type = "text" placeholder =" Enter Name">
+        <br>
+        <br>
+        <p><u> Enter your contact details :</u></p>
+        <input type ="tel" placeolder ="XXXXXXXXXX">
+        <br>
+        <br>
+        <p><u> Enter your email address :</u></p>
+        <input type ="email" placeholder ="abc@email.com">
+<br>
+<br>
+        <p>ABC Group of hotels also provide pick-up and drop services for our guests. Do you require it?</p>
+        <select name="travel service" id="guests">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+        </select>
+        <hr>
+    </section>
+
+    <section>
+        <p><h3>RESERVATION DETAILS - </h3></p>
+        <p> <u> Reservation Type :</u></p>
+        <!-- name , and value are the areas that will be received by the backend-->
+        <label>
+        <input type ="radio" value ="Hotel" name="reservation tye">Hotel
+        </label>
+
+        <label>
+            <input type ="radio" value ="Restaurant"name="reservation type"> Restaurant
+        </label>
+
+        <p><u> Please enter your preferred checkin / visiting date :
+
+        </u></p>
+        <input type ="date">
+
+        <p><u> Please enter your preferred checkout date :</u></p>
+        <input type ="date">
+
+        <p><u> Please enter your preferred visiting time :</u></p>
+        <input type ="time">
+
+        <p><u> Please enter the total number of guests :</u></p>
+        <p> <b> Number of Adults (above 18):</b></p>
+        <input type="number">
+        <p><b> Number of minors (below 18):</b></p>
+        <input type="number">
+        <hr>
+    </section>
+
+    <section>
+        <p><h3> RESTAURANT - SPECIFIC DETAILS (IF APPLICABLE)</h3></p>
+        <P><u> Table Preference -</u></P>
+        <label>
+        <input type ="radio" value = "Indoor" class="tablep">Indoor
+    </label>
+    <label>
+        <input type ="radio" value = "Outdoor" class="tablep">Outdoor
+    </label>
+        <label>
+<input type ="radio" value ="Special arrangement" class="tablep">Special arrangement
+</label>
+<br>
+<p><b> In-case of parties , functions fill out special arrangement requests</b></p>
+        <input type ="text" placeholder="special request details">
+    </section>
+
+    <section>
+
+        <p><u> Food Preference -
+
+        </u></p>
+        <p><b> Please mention any dietary restrictions</b></p>
+        <input type="text" placeholder = "type here">
+        
+        <br>
+        <hr>
+    </section>
+
+    <section>
+
+        <p><h3> HOTEL - SPECIFIC DETAILS (IF APPLICABLE)</h3></p>
+        <p> Preferred number of rooms-</p>
+        <input type="number" placeholder ="enter value here">
+<p> Any special room requests -</p>
+<input type="text" placeholder="type here">
+<br>
+<hr>
+</section>
+
+<section>
+<p><h3> Payment Details -</h3></p>
+<p><u> Mode of Payment -</u></p>
+
+<label>
+    <input type="radio" value="UPI" class="mop"> UPI
+</label>
+
+<label>
+    <input type="radio" value="Card" class="mop"> Card
+</label>
+
+<label>
+    <input type="radio" value="Internet banking" class="mop"> Internet Banking
+</label>
+<br>
+<br>
+</section>
+<hr>
+
+    </body>
+    <footer>
+        <section>
+            <input type="submit" value="Submit">
+             
+        <p> <i> <b>Thank you for choosing ABC Group of Hotels. We look forward to making your stay unforgettable. Safe travels, and see you soon!</i></b></p>
+        </section>
+    </footer>
+</html>
